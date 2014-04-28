@@ -22,6 +22,7 @@
 		78C57CD6190E11F900EF5AF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C57CB5190E11F900EF5AF6 /* UIKit.framework */; };
 		78C57CDE190E11F900EF5AF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C57CDC190E11F900EF5AF6 /* InfoPlist.strings */; };
 		78C57CE0190E11F900EF5AF6 /* delegation1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C57CDF190E11F900EF5AF6 /* delegation1Tests.m */; };
+		78C57CEB190E122B00EF5AF6 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C57CEA190E122B00EF5AF6 /* Triangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		78C57CDB190E11F900EF5AF6 /* delegation1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "delegation1Tests-Info.plist"; sourceTree = "<group>"; };
 		78C57CDD190E11F900EF5AF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78C57CDF190E11F900EF5AF6 /* delegation1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegation1Tests.m; sourceTree = "<group>"; };
+		78C57CE9190E122B00EF5AF6 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		78C57CEA190E122B00EF5AF6 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				78C57CC0190E11F900EF5AF6 /* AppDelegate.h */,
+				78C57CE9190E122B00EF5AF6 /* Triangle.h */,
+				78C57CEA190E122B00EF5AF6 /* Triangle.m */,
 				78C57CC1190E11F900EF5AF6 /* AppDelegate.m */,
 				78C57CC3190E11F900EF5AF6 /* Main_iPhone.storyboard */,
 				78C57CC6190E11F900EF5AF6 /* Main_iPad.storyboard */,
@@ -256,6 +261,7 @@
 				78C57CCB190E11F900EF5AF6 /* ViewController.m in Sources */,
 				78C57CC2190E11F900EF5AF6 /* AppDelegate.m in Sources */,
 				78C57CBE190E11F900EF5AF6 /* main.m in Sources */,
+				78C57CEB190E122B00EF5AF6 /* Triangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

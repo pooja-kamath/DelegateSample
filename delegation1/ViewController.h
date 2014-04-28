@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import"Triangle.h"
+
+@interface ViewController : UIViewController < triangleDelegate >
 
 @end
