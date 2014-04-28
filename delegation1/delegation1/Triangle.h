@@ -16,7 +16,6 @@
 @interface Triangle : NSObject
 {
 @public
-    //triangle
     id delegate;
     float length;
 }

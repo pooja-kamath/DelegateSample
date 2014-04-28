@@ -21,8 +21,6 @@
     Triangle* t =[[Triangle alloc]init];
     t->delegate=self;
     [t setlengthl:10];
-
-
 }
 
 - (void)didReceiveMemoryWarning
